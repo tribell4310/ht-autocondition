@@ -1,0 +1,49 @@
+^j::
+SetMouseDelay, 100
+Loop, 10
+	{
+	Click, 90, 115
+	Sleep, 20
+	}
+Click, 175, 195
+Click, 175, 278
+Loop, 160
+	{
+	MouseMove, 100, 150
+	MouseMove, 150, 150
+	Sleep, 100
+	}
+Loop, 20
+	{
+	Click, 145, 195
+	Loop, 160
+		{
+		MouseMove, 100, 150
+		MouseMove, 150, 150
+		Sleep, 100
+		}
+	}
+Click, 175, 195
+Click, 175, 260
+Loop, 10
+	{
+	Click, 145, 195
+	Loop, 160
+		{
+		MouseMove, 100, 150
+		MouseMove, 150, 150
+		Sleep, 100
+		}
+	}
+Loop, 9
+	{
+	Click, 145, 195
+	Loop, 320
+		{
+		MouseMove, 100, 150
+		MouseMove, 150, 150
+		Sleep, 100
+		}
+	}
+Click, 145, 195
+return
